@@ -8,7 +8,7 @@ import recognition
 class FileMovingApp: 
     def __init__(self, root): 
         self.root = root 
-        self.root.title("File Moving App") 
+        self.root.title("Image Recognition") 
 
         # Dictionary to store result counts 
         self.result_counts = {'塑膠': 0, '紙包飲品': 0, '金屬製品': 0, '其他': 0} 
