@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyANXBUA3VauNCtMDWh6eT3UzivVgPvBwzY')
+genai.configure(api_key=os.environ['Google-Gemini-API-Key'])
 model = genai.GenerativeModel('gemini-1.5-pro-002')
 
 def recognize(file_name):
