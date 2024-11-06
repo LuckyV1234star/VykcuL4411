@@ -14,7 +14,6 @@ def recognize(file_name):
 
     response = model.generate_content([photo, prompt])
 
-    #print(response.text)
     
     for i in ['塑膠','紙包飲品','金屬製品','其他']:
         if (response.text.find(i) != -1):
@@ -22,4 +21,3 @@ def recognize(file_name):
 
     return "其他"
 
-#print(recognize("boss.jpg"))
