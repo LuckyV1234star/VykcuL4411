@@ -3,6 +3,7 @@ import moving
 import threading
 import capturing
 import recognition
+import counting
 
 
 class FileMovingApp: 
@@ -25,6 +26,7 @@ class FileMovingApp:
         #End button
         self.end_button = tk.Button(root, text='End', command=self.end_process, font=("Arial", 12))
         self.end_button.pack(pady=10)
+        
 
         # Result boxes 
         self.result_labels = {} 
@@ -50,6 +52,7 @@ class FileMovingApp:
 
     def end_process(self):
         self.running = False
+        counting.count()
         self.root.quit()
 
 if __name__ == "__main__": 
