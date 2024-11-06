@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "savvy-bonito-440904-q7",
+  "private_key_id": "2bd81c617b43bb8c20841dd73fbbf2387e82b83c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDL9Sdn/jxH6JPi\n/E3jQ0xTy0LktUf9yKoQxJHNl8DDgAcrH/dpWRfNRhF6t714Zbap141JT0k2MahL\nsY/q1ev/V8MkfyPRoTrNvQ1BGs3guP9r9ZMK188guQYpVisdBdvGzNqY2VYRdwQ6\nqpWSBln33Cbryf71OAJWvnVhR9E/vfGh2U3beADkTRDcbbUeQv6+RcCBAS2yI+ib\nxrnmzQVu129Hv8U1a8c1pFP/7OtTfhunAEnaYUVUvnFC5qCNMNG7yzUgrDbmnaLt\nn3zyACs0q0VPktYMdV+trHudax7diESDKrJkqVmWk82BNDukAfhWYDBrBoIA+oia\nIpjj9+p/AgMBAAECggEAHytSf96HGNguzZgQUSRmREICcZBQtbSWZOSdgaVo5Jeq\nwMjsVxGyBQFpx27QClfFABS8d1EiF6GkHhk/LLzPiaDAZlH1x+ITagCzx1jQ0MCE\n7FtFwvjzIwWTrvqHsTJFgY6p84T3VcjyAQMzw3KsCih/XDZs+8248ce+iYTfshVP\nlQtWi64pnW3wTAZfQU70LiMALSrnyt/gxOHXQD5HbYv6SQs8Bb62iz0nGUD9ITAh\nhupAML7Y3BrYYA+BWr24mRMS0suDeMhffk1NLygj0jOOUtG1wbepkHNqf1cd+YO5\nBBbCWknkUjfdL006jgZVrQ/Qpda2ycQyzjO01lAnRQKBgQD1U9aK+NwT8qxdIvM6\nPaTA+ikTU6KvO21DjEurYEmbrnxK80RmUXbt1e17kjIfm5VnUKFxyIZwvY4iFCci\na2bT8DkuQKRaata2fDLI3w1vNV+iFsLLPZbL0BGRIMSGC77368JSAXRjkQGxyU80\n0itNqOqSRjgj5mjMqqSie4eD2wKBgQDU1JaWYlQ4nO6as6wCRCHTj3P4TsL8VCOA\ntPs50pSMBQA3E/eN2Gw1bkqZ8tvSoMHl9jFEZQ2KHyOefHEdLNeK4YW8I9Iteg5B\nbUa727QzkqDuk74sb0NNyfmrbEN9xfJi//siCCEFaAMGE8YNFplKhaY9s1WXb6xD\nkwBiJPxHLQKBgQCbYPItKtkYuUZ55rzuUkSbBNYnK32KRrU5Zw42CNIWDDkkr1bP\nByGwGSJEdZ/RbRT/To4yJrMfjK8M3n66yhNigG923/I4YhqDkb4Ig11a5g8f9hKB\n7wwnIi0+IebWj3HwTB3TGqDAvwK3u6yy47oRgb6vzlGYS0Js/lcvodV+qQKBgF5s\ngvLtZRhI58NS+3l16NwHxRfhObjhS28K3Hrm5mjIvzOwdCBGaJu79vUePlDQabYw\n5+LEQqGI9zCVXUnoXyiKrd6utczfXfvBE6S88NIAt82hVro4EtAsT8yyF69xZvxt\nPWn32U6gutazZybfY9sgOIUfT1YEgZTpXz4r0pFxAoGBAO7anMU+e9tpMA3AUyvS\nTVOretygMTeU+RGOUrTsEMEfHeQM7zNUWbk/AEnCv7OcLFESM5bTZ1YjhMnjk/8A\n3XkrCBqwqAGD5I5opK3F37u8AEfKSwYl3KQ3Y4JshF7NgilnmxVeX26qzF5kNmms\nAvfOpHxTUa1tnj5UhOmvTyzm\n-----END PRIVATE KEY-----\n",
+  "client_email": "cathay-hacka-team-193-139@savvy-bonito-440904-q7.iam.gserviceaccount.com",
+  "client_id": "107665607455766288660",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cathay-hacka-team-193-139%40savvy-bonito-440904-q7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
