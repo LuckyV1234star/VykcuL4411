@@ -38,6 +38,7 @@ class FileMovingApp:
     def process_files_once(self):
             file_name = capturing.capture()
             result = recognition.recognize(file_name)
+            print("done")
             moving.file_moving(file_name, result)
             self.label.config(text=f"File: {file_name}, 分類結果: {result}")
 
