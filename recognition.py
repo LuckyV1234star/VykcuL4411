@@ -5,7 +5,7 @@ genai.configure(api_key='AIzaSyANXBUA3VauNCtMDWh6eT3UzivVgPvBwzY')
 model = genai.GenerativeModel('gemini-1.5-pro-002')
 
 def recognize(file_name):
-    photo = genai.upload_file(path=f".\\img\\temp\\{file_name}")
+    photo = genai.upload_file(path=f"./img/temp/{file_name}")
     prompt = "識別我提供的圖片，識別圖中物品為塑料、紙包飲品還是金屬製品，並回覆：塑膠、紙包飲品或是金屬製品。注意，其中可能會出現不屬於塑料、紙包飲品或是金屬製品的情況，則回覆：其他。你的回覆應該且只僅為一個詞語從這個集中提取：['塑膠','紙包飲品','金屬製品','其他']"
 
 
