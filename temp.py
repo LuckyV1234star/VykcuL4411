@@ -1,14 +1,13 @@
-from pygrabber.dshow_graph import FilterGraph
+import os
+import capturing
+import recognition
+import moving
 
-def get_available_cameras() :
 
-    devices = FilterGraph().get_input_devices()
-
-    available_cameras = {}
-
-    for device_index, device_name in enumerate(devices):
-        available_cameras[device_index] = device_name
-
-    return available_cameras
-
-print(get_available_cameras())
+if __name__ == "__main__":
+    i = 0
+    for file_name in os.listdir("./img/temp"):
+        result = recognition.recognize(file_name)
+        moving.file_moving(file_name, result)
+        i += 1
+        print(i)
